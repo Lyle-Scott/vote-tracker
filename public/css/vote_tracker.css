@@ -1,0 +1,121 @@
+body {
+  background-color: #000000;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.section {
+  background: #0f0f0f;
+  font-family: Garamond;
+}
+
+#title{
+  background: #fff4b8;
+  font-family: 'Monoton', cursive;
+  font-size: 24px;
+}
+
+#game{
+  background: #888888;
+}
+
+#refresh{
+  background: #444;
+}
+
+.cat_pic:hover {
+    -ms-transform: scale(1.25,1.25);
+    -webkit-transform: scale(1.25,1.25);
+    transform: scale(1.25,1.25);
+    transition: .5s ease-in-out;
+
+
+}
+.cat_pic {
+  z-index: = 1000;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+
+canvas {
+/*  position: absolute;
+  width: 200px;
+  height: 200px;*/
+/*  margin-left: auto;
+  margin-right: auto;*/
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#player1 {
+  float: left;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#chart {
+  float: left;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+  margin-right: 52px;
+  margin-top: 25px;
+  min-width: 200px;
+  max-width: 800px;
+  background-color: "white";
+  z-index: 200;
+}
+
+#player2 {
+  float: left;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  z-index: 500;
+}
+#cats {
+
+}
+#reset {
+  position: relative;
+  border-radius: 15%;  
+  margin-left: auto;
+  margin-right: auto;
+  font-family: garamond;
+  text-align: center;
+  background-color: #fff4b8;
+}
+p {
+  font-family: garamond;
+  text-align: center;
+  color: #fff4b8;
+}
+#start {
+  position: relative;
+  top: 25px;
+  border-radius: 15%;  
+  margin-left: auto;
+  margin-right: auto;
+  font-family: garamond;
+  text-align: center;
+  background-color: #fff4b8;
+  transform: scale(+400%, +400%);
+}
+/*#battle {
+  position: fixed;
+  float: left;
+  left: 0px;
+  bottom: 0px;
+}*/

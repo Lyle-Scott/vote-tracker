@@ -1,0 +1,23 @@
+{
+  "name": "vote_tracker",
+  "version": "1.0.0",
+  "description": "cutest cat competition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyle-Scott/vote_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyle-Scott/vote_tracker/issues"
+  },
+  "homepage": "https://github.com/Lyle-Scott/vote_tracker#readme",
+  "dependencies": {
+    "cool-ascii-faces": "~1.3.x",
+    "express": "^4.13.1"
+  }
+}
